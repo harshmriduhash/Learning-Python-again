@@ -41,3 +41,10 @@ len(my_dict)  # Output: 3
 my_str = "Hello, Harsh!"
 print(my_str)  # Output: Hello, World!
 len(my_str)  # Output: 13   
+
+
+# bool = bool in python will always be defined by True or False. JavaScript's Boolean is equivalent to python's bool
+my_bool = True  
+print(my_bool)  # Output: True
+len(my_bool)  # Output: 4 (length of the string representation of True) 
+
