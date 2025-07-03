@@ -28,3 +28,5 @@ len(my_tuple)  # Output: 5
 
 # set = set in python will always be defined by {}. JavaScript's Set is equivalent to python's set
 my_set = {1, 2, 3, 4, 5}
+print(my_set)  # Output: {1, 2, 3, 4, 5}
+len(my_set)  # Output: 5
