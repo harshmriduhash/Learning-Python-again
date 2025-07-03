@@ -64,7 +64,33 @@ len(str(my_float))  # Output: 4 (length of the string representation of 3.14)
 my_complex = 1 + 2j
 print(my_complex)  # Output: (1+2j)
 len(str(my_complex))  # Output: 7 (length of the string representation of (1+2j))
-    
+
+
+# bytes = bytes in python will always be defined by b'bytes'. JavaScript does not have a direct equivalent
+my_bytes = b'bytes' 
+print(my_bytes)  # Output: b'bytes'
+len(my_bytes)  # Output: 5 (length of the byte string 'bytes')  
+
+
+# bytearray = bytearray in python will always be defined by bytearray(b'bytes'). JavaScript does not have a direct equivalent
+my_bytearray = bytearray(b'bytes')  
+print(my_bytearray)  # Output: bytearray(b'bytes')
+len(my_bytearray)  # Output: 5 (length of the byte array 'bytess')
+
+
+# None = None in python will always be defined by None. JavaScript's null is equivalent to python's None
+my_none = None  
+print(my_none)  # Output: None
+len(str(my_none))  # Output: 4 (length of the string representation of None)
+# range = range in python will always be defined by range(1, 10). JavaScript does not have a direct equivalent
+my_range = range(1, 10) 
+print(list(my_range))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+len(my_range)  # Output: 9 (length of the range from 1 to 10, excluding 10)
+
+
+# frozenset = frozenset in python will always be defined by frozenset({1, 2, 3}). JavaScript does not have a direct equivalent
+my_frozenset = frozenset({1, 2, 3})
+
 
 
 
