@@ -30,3 +30,8 @@ len(my_tuple)  # Output: 5
 my_set = {1, 2, 3, 4, 5}
 print(my_set)  # Output: {1, 2, 3, 4, 5}
 len(my_set)  # Output: 5
+
+# dict = dict in python will always be defined by {}. JavaScript's Object is equivalent to python's dict
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
+len(my_dict)  # Output: 3
