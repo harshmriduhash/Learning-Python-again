@@ -60,5 +60,11 @@ my_float = 3.14
 print(my_float)  # Output: 3.14
 len(str(my_float))  # Output: 4 (length of the string representation of 3.14)
 
+# complex = complex in python will always be defined by 1+2j, 3-4j, etc. JavaScript does not have a direct equivalent
+my_complex = 1 + 2j
+print(my_complex)  # Output: (1+2j)
+len(str(my_complex))  # Output: 7 (length of the string representation of (1+2j))
+    
+
 
 
