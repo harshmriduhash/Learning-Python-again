@@ -35,3 +35,9 @@ len(my_set)  # Output: 5
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
 len(my_dict)  # Output: 3
+
+
+# str = str in python will always be defined by "". JavaScript's String is equivalent to python's str
+my_str = "Hello, Harsh!"
+print(my_str)  # Output: Hello, World!
+len(my_str)  # Output: 13   
