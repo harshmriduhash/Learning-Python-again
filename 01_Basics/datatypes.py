@@ -55,3 +55,10 @@ print(my_int)  # Output: 42
 len(str(my_int))  # Output: 2 (length of the string representation of 42)   
 
 
+# float = float in python will always be defined by 1.0, 2.5, 3.14, etc. JavaScript's Number is equivalent to python's float
+my_float = 3.14
+print(my_float)  # Output: 3.14
+len(str(my_float))  # Output: 4 (length of the string representation of 3.14)
+
+
+
