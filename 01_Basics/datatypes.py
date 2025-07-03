@@ -60,6 +60,7 @@ my_float = 3.14
 print(my_float)  # Output: 3.14
 len(str(my_float))  # Output: 4 (length of the string representation of 3.14)
 
+
 # complex = complex in python will always be defined by 1+2j, 3-4j, etc. JavaScript does not have a direct equivalent
 my_complex = 1 + 2j
 print(my_complex)  # Output: (1+2j)
@@ -82,6 +83,8 @@ len(my_bytearray)  # Output: 5 (length of the byte array 'bytess')
 my_none = None  
 print(my_none)  # Output: None
 len(str(my_none))  # Output: 4 (length of the string representation of None)
+
+
 # range = range in python will always be defined by range(1, 10). JavaScript does not have a direct equivalent
 my_range = range(1, 10) 
 print(list(my_range))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -90,7 +93,11 @@ len(my_range)  # Output: 9 (length of the range from 1 to 10, excluding 10)
 
 # frozenset = frozenset in python will always be defined by frozenset({1, 2, 3}). JavaScript does not have a direct equivalent
 my_frozenset = frozenset({1, 2, 3})
+print(my_frozenset)  # Output: frozenset({1, 2, 3})
+len(my_frozenset)  # Output: 3 (length of the frozenset {1, 2, 3})
 
 
-
-
+# memoryview = memoryview in python will always be defined by memoryview(b'bytes'). JavaScript does not have a direct equivalent
+my_memoryview = memoryview(b'bytes')    
+print(my_memoryview)  # Output: <memory at 0x...>
+len(my_memoryview)  # Output: 5 (length of the memory view of the byte string 'bytes')
