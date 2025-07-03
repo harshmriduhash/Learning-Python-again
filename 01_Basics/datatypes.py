@@ -18,4 +18,10 @@
 # list = list in python will always be defined by []. JavaScript's array is equivalent to python's list
 my_list = [1, 2, 3, 4, 5]
 print(my_list)  # Output: [1, 2, 3, 4, 5]
-len(my_list)  # Output: 5
+len(my_list)  # Output: 5   
+# tuple = tuple in python will always be defined by (). JavaScript's array is equivalent to python's tuple
+my_tuple = (1, 2, 3, 4, 5)  
+print(my_tuple)  # Output: (1, 2, 3, 4, 5)
+len(my_tuple)  # Output: 5  
+# set = set in python will always be defined by {}. JavaScript's Set is equivalent to python's set
+my_set = {1, 2, 3, 4, 5}
