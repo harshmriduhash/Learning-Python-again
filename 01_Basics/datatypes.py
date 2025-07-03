@@ -48,3 +48,10 @@ my_bool = True
 print(my_bool)  # Output: True
 len(my_bool)  # Output: 4 (length of the string representation of True) 
 
+
+# int = int in python will always be defined by 1, 2, 3, etc. JavaScript's Number is equivalent to python's int
+my_int = 42
+print(my_int)  # Output: 42
+len(str(my_int))  # Output: 2 (length of the string representation of 42)   
+
+
